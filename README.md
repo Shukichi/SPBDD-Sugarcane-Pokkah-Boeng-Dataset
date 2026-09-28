@@ -115,8 +115,7 @@ The experimental field contained multiple sugarcane cultivars and was establishe
 
 Images were acquired under field conditions using a **HUAWEI nova 12 Vitality Edition (FIN-AL60)** smartphone.
 
-The original photographs were captured at a resolution of **3072 × 4096 pixels**. The version used for model development and released in this repository consists of the processed **224 × 224 pixel images** used in the experiments.
-
+The original photographs were captured at a resolution of 3072 × 4096 pixels. The dataset version used for model development consists of the processed 224 × 224 pixel images, which are being prepared for release in this repository.
 ---
 
 ## Visual Severity Grading
@@ -162,7 +161,7 @@ The agreement between the two independent annotators was evaluated using **Cohen
 
 The final labels therefore represent expert-reviewed **visual severity annotations**.
 
-No pathogen isolation or molecular confirmation was conducted for every individual image. Accordingly, SPBDD should be used for the study of **visual symptom severity grading**, rather than as a pathogen-confirmed diagnostic dataset.
+No pathogen isolation or molecular confirmation was conducted for every sampled plant. Accordingly, SPBDD should be used for the study of **visual symptom severity grading**, rather than as a pathogen-confirmed diagnostic dataset.
 
 ---
 
@@ -172,7 +171,7 @@ Images were collected during the disease-development period.
 
 However:
 
-- all four severity categories were represented across the collection period;
+- all four severity categories were represented in each collection month;
 - collection time was **not used as a criterion for severity annotation**;
 - collection date or month was **not provided as an input to the model**.
 
